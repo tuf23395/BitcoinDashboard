@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Bitcoin Dashboard</string>
+    <string name="navMenu1">Price</string>
+    <string name="navMenu2">Chart</string>
+    <string name="navMenu3">Block</string>
+    <string name="navMenu4">Address</string>
+    <string name="navMenu5">QR Code</string>
+    <string name="currencyName">USD</string>
+    <string name="currencySymbol">$</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pricecurrentforbitcoin">The current price for bitcoin is</string>
+    <string name="pricein">in</string>
+    <string name="hash">BLOCK#</string>
+    <string name="blockDifficulty">Difficulty:</string>
+    <string name="blockLoad">Loaded block: </string>
+    <string name="blockBlockText">Block #:</string>
+    <string name="blockFee">Fee:</string>
+    <string name="blockDaysDestroyed">Days Destroyed:</string>
+    <string name="blockSize">Size:</string>
+    <string name="lastBlock">You are at the last block!</string>
+    <string name="firstBlock">You are at the first block!</string>
+    <string name="addressAddressBalance">The balance of the address is:</string>
+    <string name="invalidAddress">The address you have searched for is invalid.</string>
+    <string name="qrComingSoon">Coming Soon!</string>
+    <string-array name="menuArray">
+        <item>
+            Price
+        </item>
+        <item>
+            Chart
+        </item>
+        <item>
+            Block
+        </item>
+        <item>
+            Address
+        </item>
+        <item>
+            QR Code
+        </item>
+    </string-array>
+</resources>

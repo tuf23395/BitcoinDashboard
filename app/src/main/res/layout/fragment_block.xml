@@ -1,0 +1,176 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.temple.bitcoindashboard.BlockFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="37dp"
+        android:textColor="@color/colorWhite"
+        android:text="@string/hash"
+        android:gravity="left|center"
+        android:background="@drawable/edittextbg"
+        android:editable="true"
+        android:layout_marginLeft="0dp"
+        android:paddingLeft="5px"
+        android:paddingRight="5px"
+        android:textSize="16dp"
+        android:id="@+id/blockBlockEdit"
+        android:inputType="number" />
+
+    <ImageButton
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="60dp"
+        android:layout_height="37dp"
+        android:id="@+id/buttonBlockchain"
+        android:layout_gravity="right|top"
+        android:background="@color/colorPrimaryDark"
+
+        android:src="@drawable/ic_check_black_24px"/>
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="338dp"
+        android:layout_height="399dp"
+        android:layout_gravity="center"
+        android:weightSum="1"
+        android:id="@+id/blockRelLayout"
+        android:background="@drawable/edittextbg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/blockDifficulty"
+            android:id="@+id/blockDifficulty"
+            android:layout_marginStart="43dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/blockBlock"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:id="@+id/blockDifficultyVal"
+            android:layout_gravity="right"
+            android:textSize="15dp"
+            android:textColor="@color/colorWhite"
+            android:layout_alignTop="@+id/blockDifficulty"
+            android:layout_toEndOf="@+id/blockDaysDestroyed"
+            android:layout_marginStart="28dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/blockBlockText"
+            android:id="@+id/blockBlock"
+            android:textColor="@color/colorWhite"
+            android:layout_marginTop="99dp"
+            android:textSize="16dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/blockDifficulty" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text=" "
+            android:id="@+id/blockBlockVal"
+            android:textColor="@color/colorWhite"
+            android:layout_alignTop="@+id/blockBlock"
+            android:layout_alignStart="@+id/blockDifficultyVal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/blockFee"
+            android:id="@+id/blockFee"
+            android:textColor="@color/colorWhite"
+            android:textSize="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/blockDifficulty"
+            android:layout_alignStart="@+id/blockDifficulty" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text=" "
+            android:id="@+id/blockFeeVal"
+            android:textColor="@color/colorWhite"
+            android:textSize="16dp"
+            android:layout_alignTop="@+id/blockFee"
+            android:layout_alignStart="@+id/blockDifficultyVal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/blockDaysDestroyed"
+            android:id="@+id/blockDaysDestroyed"
+            android:layout_below="@+id/blockFee"
+            android:layout_alignStart="@+id/blockFee"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:textColor="@color/colorWhite" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text=" "
+            android:id="@+id/blockDaysDestroyedVal"
+            android:textColor="@color/colorWhite"
+            android:textSize="16dp"
+            android:layout_alignTop="@+id/blockDaysDestroyed"
+            android:layout_alignStart="@+id/blockFeeVal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/blockSize"
+            android:id="@+id/blockSize"
+            android:layout_below="@+id/blockDaysDestroyed"
+            android:layout_alignStart="@+id/blockDaysDestroyed"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text=" "
+            android:id="@+id/blockSizeVal"
+            android:layout_alignTop="@+id/blockSize"
+            android:layout_alignStart="@+id/blockDaysDestroyedVal"
+            android:textSize="16dp"
+            android:textColor="@color/colorWhite" />
+
+    </RelativeLayout>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:id="@+id/blockRightBtn"
+        android:background="@drawable/edittextbg"
+        android:src="@drawable/ic_navigate_next_black_24px"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginRight="5dp" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:id="@+id/blockLeftBtn"
+        android:background="@drawable/edittextbg"
+        android:src="@drawable/ic_navigate_before_black_24px"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginLeft="5dp" />
+
+</FrameLayout>

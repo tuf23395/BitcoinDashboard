@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Bitcoin Dashboard</string>
+    <string name="navMenu1">Precio</string>
+    <string name="navMenu2">Gráfico</string>
+    <string name="navMenu3">Bloque</string>
+    <string name="navMenu4">Dirección</string>
+    <string name="navMenu5">Código QR</string>
+    <string name="currencyName">EUR</string>
+    <string name="currencySymbol">€</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pricecurrentforbitcoin">El precio actual de bitcoin es</string>
+    <string name="pricein">en</string>
+    <string name="hash">BLOQUE#</string>
+    <string name="blockDifficulty">Difficultad:</string>
+    <string name="blockLoad">Bloque cargado: </string>
+    <string name="blockBlockText">Bloque #:</string>
+    <string name="blockFee">Cuota:</string>
+    <string name="blockDaysDestroyed">Días destruidos:</string>
+    <string name="blockSize">Tamaño:</string>
+    <string name="lastBlock">¡Estás en el último bloque!</string>
+    <string name="firstBlock">Usted está en el primer bloque!</string>
+    <string name="addressAddressBalance">El saldo de la dirección es:</string>
+    <string name="invalidAddress">La dirección que has buscado no es válida.</string>
+    <string name="qrComingSoon">¡Próximamente!</string>
+    <string-array name="menuArray">
+        <item>
+            Precio
+        </item>
+        <item>
+            Gráfico
+        </item>
+        <item>
+            Bloque
+        </item>
+        <item>
+            Dirección
+        </item>
+        <item>
+            Código QR
+        </item>
+    </string-array>
+</resources>

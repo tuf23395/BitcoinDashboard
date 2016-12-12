@@ -1,0 +1,52 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.temple.bitcoindashboard.PriceFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="189dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="0"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/priceText"
+        android:layout_gravity="center"
+        android:textSize="64dp"
+        android:paddingTop="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/pricecurrentforbitcoin"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal|top"
+        android:paddingTop="60dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/pricein"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/textView2"
+        android:layout_gravity="left|bottom"
+        android:paddingBottom="70dp"
+        android:paddingLeft="180dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=" "
+        android:textColor="@color/colorWhite"
+        android:id="@+id/currencyText"
+        android:layout_gravity="right|bottom"
+        android:paddingRight="167dp"
+        android:paddingBottom="70dp" />
+
+</FrameLayout>

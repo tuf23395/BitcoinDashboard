@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/my_priceAction"
+        android:enabled="true"
+        android:icon="@drawable/ic_priceaction"
+        android:title="@string/navMenu1"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/my_chartAction"
+        android:enabled="true"
+        android:icon="@drawable/ic_chartaction"
+        android:title="@string/navMenu2"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/my_blockAction"
+        android:enabled="true"
+        android:icon="@drawable/ic_blockaction"
+        android:title="@string/navMenu3"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/my_addressAction"
+        android:enabled="true"
+        android:icon="@drawable/ic_addressaction"
+        android:title="@string/navMenu4"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/my_qrAction"
+        android:enabled="true"
+        android:icon="@drawable/ic_qraction"
+        android:title="@string/navMenu5"
+        app:showAsAction="ifRoom" />
+
+</menu>
